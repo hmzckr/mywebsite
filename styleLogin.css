@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    background-image: url(./images/boxback.jpg);
+    background-repeat: round;
+    border: 0px solid rgb(8, 16, 255);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerBox{
+    background-color: white;
+    border-radius: 12px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    box-shadow: 0px 0px 15px 0px rgb(107, 107, 107);
+}
+.userPhoto {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.userPhoto img{
+    width: 60%;
+    margin-left: 30px;
+    box-shadow: 0px 15px 25px 0px rgb(107, 107, 107);
+    border-radius: 180px;
+}
+.userPhoto img:hover{
+    width: 65%;
+    transition: 0.11s;
+}
+.Box {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.userBox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 0px rgb(127, 0, 0);
+}
+.userBox:hover {    
+    box-shadow: 0px 15px 25px 0px rgb(0, 0, 0);
+}
+.userBox input{
+    margin-left: 20px;
+}
+.passwordBox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 0px rgb(12, 0, 106);
+}
+
+.passwordBox:hover{ 
+    box-shadow: 0px 15px 25px 0px rgb(0, 0, 0);
+}
+
+.passwordBox input{
+    margin-left: 80px;
+}
+.Button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 210px;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(207, 255, 207);
+}
+
+.Button:hover{
+    background-color: green;
+    box-shadow: 0px 5px 15px 0px rgb(15, 74, 52);
+}
